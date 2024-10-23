@@ -1,8 +1,7 @@
 let getal = 100
 let output = document.getElementById("output")
 let budget = 100
-let product = 60
-
+let product = prompt()
 let hour = 10;
 
 
