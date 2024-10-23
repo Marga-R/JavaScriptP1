@@ -11,11 +11,11 @@ function addnumber(){
 }
 
 if (budget > product) {
-    console.log("I have enough money")
+    output.innerText = "I have enough money"
 }
 
-else if (budget < product) {
-    console.log("I'm poor")
+else {
+    output.innerText = "I'm poor"
 }
 
 if (hour < 18) {
